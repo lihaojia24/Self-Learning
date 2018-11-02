@@ -12,7 +12,7 @@ def merge(nums, left, mid, right, temp):
 			temp[pt] = nums[p1]
 			p1 += 1
 		else:
-			temp[pt] = nums[p2]
+			temp[pt] = nums[p2] 
 			p2 += 1
 		pt += 1
 	#填充剩余nums
